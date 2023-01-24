@@ -29,7 +29,7 @@ In the event of any personal usage, please obtain a personal token with HubSpot.
 - run `sudo npm install -g` to install the program 
 
 ## Run Program
-- `valid-participant-search`
+- `run-search`
 
 ## After Running Program (optional)
 - run `npm uninstall -g hubspot` to uninstall the program
