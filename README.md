@@ -10,9 +10,11 @@ Another team will send out the invitations, but you need to tell them when we sh
 
 The date you send in for the country should be the starting date of the two day period where the most partners can make it for both days in a row. In case of multiple dates with the same number of partners, pick the earlier date. If there are no two days in a row when any partners can make it, return null.
 
+
 ## Endpoints
 `https://candidate.hubteam.com/candidateTest/v3/problem/dataset?userKey=${USER_KEY}`
 `https://candidate.hubteam.com/candidateTest/v3/problem/result?userKey=${USER_KEY}`
+
 
 ## Before Running
 - Please have the following installed and upgraded to their respective version or newer
@@ -20,8 +22,7 @@ The date you send in for the country should be the starting date of the two day 
         - checking via `node -v` 
     - NPM 7.0.3
         - checking via `npm -v`
-- The project is default running on a testing token acquired by the developer. 
-In the event of any personal usage, please obtain a personal token with HubSpot.
+
 
 ## Installation 
 - Options to access the project 
@@ -31,10 +32,13 @@ In the event of any personal usage, please obtain a personal token with HubSpot.
 - run `npm install` to install npm module dependencies
 - run `sudo npm install -g` to install the program 
 
+
 ## Run Program
 - `run-search`
+
 
 ## After Running Program (optional)
 - run `npm uninstall -g hubspot` to uninstall the program
 - `cd ..`
 - run `sudo rm -r hubspot` to delete the project
+
