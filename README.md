@@ -37,7 +37,7 @@ The date you send in for the country should be the starting date of the two day 
 - `run-search`
 
 
-## After Running Program (optional)
+## Clean up (optional)
 - run `npm uninstall -g hubspot` to uninstall the program
 - `cd ..`
 - run `sudo rm -r hubspot` to delete the project
