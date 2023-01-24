@@ -1,10 +1,10 @@
 let self = module.exports = {
     filter: function(data){
-        let countryMap = self.constructMapFromValidData(data)
+        let countryMap = self.constructMapUsingValidData(data)
         return self.filterFromMap(countryMap)
     },
 
-    constructMapFromValidData: function(data){
+    constructMapUsingValidData: function(data){
         let countryMap = new Map() // country String : date Map
         for(let participant of data.partners){
             let participantCountry = participant.country
